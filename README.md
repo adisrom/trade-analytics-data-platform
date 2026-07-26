@@ -215,7 +215,19 @@ Built an interactive Streamlit dashboard for monitoring:
 
 The dashboard connects directly to PostgreSQL analytics views.
 
+## Dashboard Preview
 
+### Executive Compliance Dashboard
+
+![Executive Dashboard](dashboard/screenshots/executive_dashboard.png)
+
+### Supplier Risk Analysis
+
+![Supplier Risk](dashboard/screenshots/supplier_risk.png)
+
+### Monthly Trade Performance
+
+![Trade Trends](dashboard/screenshots/trade_trends.png)
 # Future Enhancements
 Automated Airflow scheduling
 dbt transformation models
