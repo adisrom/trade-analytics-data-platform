@@ -203,10 +203,22 @@ trade-analytics-data-platform/
 ├── tests/            # Testing
 └── docker-compose.yml
 
+
+## Dashboard
+
+Built an interactive Streamlit dashboard for monitoring:
+
+- Executive compliance KPIs
+- Supplier risk exposure
+- Inspection failure trends
+- Monthly trade performance
+
+The dashboard connects directly to PostgreSQL analytics views.
+
+
 # Future Enhancements
 Automated Airflow scheduling
 dbt transformation models
-Power BI executive dashboard
 Supplier risk prediction model
 Real-time shipment monitoring
 Cloud deployment using AWS services
