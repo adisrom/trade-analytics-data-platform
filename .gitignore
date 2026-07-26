@@ -1,34 +1,25 @@
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.venv/
-venv/
+*.pyo
 
-# Environment
+# Virtual environments
+venv/
 .env
 
-# macOS
-.DS_Store
+# Jupyter
+.ipynb_checkpoints/
 
-# VS Code
-.vscode/
-
-# Airflow
-airflow/logs/
-
-# dbt
-dbt/target/
-dbt/dbt_packages/
-
-# Data
+# Data files
 data/raw/*
 data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 
 # Logs
 logs/
+airflow/logs/
 
-# Docker
-*.pid
+# OS files
+.DS_Store
+
+# Database
+*.sqlite
