@@ -18,6 +18,12 @@ from ingestion.customs import (
     load_customs_entries
 )
 
+from ingestion.inspections import (
+    generate_inspections,
+    load_inspections
+)
+
+
 def run_pipeline():
     """
     Runs the complete trade data ingestion pipeline.
@@ -44,6 +50,9 @@ def run_pipeline():
     customs_df = generate_customs_entries()
     load_customs_entries(customs_df)
 
+    # Step 5: Generate and load inspections
+    inspections_df = generate_inspections()
+    load_inspections(inspections_df)
 
     print("Pipeline completed successfully!")
 
